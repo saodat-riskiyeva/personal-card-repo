@@ -2,6 +2,44 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./styles.css";
 
+const skills = [
+  {
+    skill: "HTML-CSS",
+    level: "beginner",
+    color: "#2662EA",
+  },
+  {
+    skill: "JavaScript",
+    level: "beginner",
+    color: "#2EA",
+  },
+  {
+    skill: "React",
+    level: "beginner",
+    color: "#C3DCAF",
+  },
+  {
+    skill: "Git and GitHub",
+    level: "beginner",
+    color: "#266",
+  },
+  {
+    skill: "Redux",
+    level: "beginner",
+    color: "#EFD81D",
+  },
+  {
+    skill: "Java",
+    level: "intermediate",
+    color: "#60DAFB",
+  },
+  {
+    skill: "Productivity Lab",
+    level: "advanced",
+    color: "#60DA",
+  },
+];
+
 function App() {
   return (
     <div className="card">
